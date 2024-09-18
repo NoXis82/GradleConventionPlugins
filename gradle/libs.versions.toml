@@ -40,3 +40,8 @@ jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = 
 android-library = { id ="com.android.library", version.ref = "agp" }
 jetbrains-kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "jetbrainsKotlinJvm" }
 
+# custom plugins defined
+common-android-library-compose = { id = "gradlePlugins.android.library.compose", version = "unspecified" }
+common-android-application-compose = { id = "gradlePlugins.android.application.compose", version = "unspecified" }
+common-android-application = { id = "gradlePlugins.android.application", version = "unspecified" }
+common-android-library = { id = "gradlePlugins.android.library", version = "unspecified" }
